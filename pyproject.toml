@@ -1,0 +1,18 @@
+[project]
+name = "pdf-ai"
+version = "0.1.0"
+description = "Python tools for superior pdf files optimized for the most superior indexing of vectors for the most-bestest, superior AI and LLM applications."
+authors = [
+    {name = "kkerber",email = "thekkerber@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pymupdf (>=1.25.2,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
